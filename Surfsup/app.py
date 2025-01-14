@@ -44,8 +44,8 @@ def welcome():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/<start>/<end>"
-        f"/api/v1.0/<start>"
+        f"/api/v1.0/<start>/<end><br/>"
+        f"/api/v1.0/<start><br/>"
     )
 
 @app.route("/api/v1.0/precipitation")
@@ -61,7 +61,7 @@ def precipitation():
     for date, prcp in results1:
         prcp_data.append({"date": date, "precipitation": prcp})
 
-    return jsonify(prcp)
+    return jsonify(prcp_data)
 
 @app.route("/api/v1.0/stations")
 def stations():
@@ -71,9 +71,9 @@ def stations():
     session.close()
 
     stations = []
-    for station in results2:
-        stations.append({"station": station})
-
+    for i in results2:
+        stations.append({"station": i[0]})
+    
     return jsonify(stations)
 
 @app.route("/api/v1.0/tobs")
