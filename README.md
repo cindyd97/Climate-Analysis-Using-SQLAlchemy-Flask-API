@@ -16,3 +16,6 @@ Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012: An overv
 - [Analysis Code](https://github.com/cindyd97/Climate-Analysis-Using-SQLAlchemy-Flask-API/blob/main/climate_starter.ipynb)
 - [Flask API](https://github.com/cindyd97/Climate-Analysis-Using-SQLAlchemy-Flask-API/blob/main/Surfsup/app.py)
 - [SQLite Data](https://github.com/cindyd97/Climate-Analysis-Using-SQLAlchemy-Flask-API/blob/main/Resources/hawaii.sqlite)
+
+This README is copyrighted. 
+Unauthorized use or reproduction is prohibited.
