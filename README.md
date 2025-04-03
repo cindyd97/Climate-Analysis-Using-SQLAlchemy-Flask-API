@@ -4,6 +4,8 @@
 A basic climate analysis and data exploration of the climate database is performed using SQLAlchemy ORM queries, Pandas, and Matplotlib. The code connects to an SQLite database and reflects the tables into classes that are saved to variables. Then, links python to the database by creating a session. The code uses precipitation data to plot precipitation over a period of time. The code also uses temperature data to plot the frequency of temperature as a histogram. 
 A Flask API is designed that includes a homepage and available routes. The first route will display the precipitation graph, the next route will display a JSON list of all stations, and the third route will display the temperature graph. The last route will display minimum temperature, average temperature, and maximum temperature for a specified start or start-end range.
 
+This ReadME's description is [copyrighted](https://github.com/cindyd97/Work/blob/main/LICENSE). 
+Unauthorized use or reproduction is prohibited.
 
 ### Language:
 - SQLAlchemy
